@@ -1,0 +1,17 @@
+{
+  "name": "intercom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./node_modules/mocha/bin/mocha ./*.test.js --reporter spec"
+  },
+  "dependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
